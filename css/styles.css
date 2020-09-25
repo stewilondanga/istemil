@@ -1,10 +1,4 @@
-/**body {
-  text-align: center;
-  font-family: courier;
-  background-image: url("../assets/image.jpeg");
-  background-repeat: no-repeat;
-  background-size: 100%;
-}
+/*
 
 .my_social {
   position: absolute;
@@ -77,7 +71,6 @@ code {
 }
 
 /* Header */
-
 /*.masthead {
 	text-align: center;
 	border-bottom: 1px solid hsl(0, 0%, 90%);
@@ -120,7 +113,6 @@ code {
 /*--------------------------------------------------------------
 Cards:
 --------------------------------------------------------------*/
-
 /*.cards {
 	max-width: 25em;
 	margin: 1em auto;
@@ -202,7 +194,7 @@ CSS Grid layout for wider screens, when browser supports grid:
     .card img {
 /*       height: 100%;
       width: auto; */
-  /*  }
+/*  }
 
     .caption {
       background: white;
