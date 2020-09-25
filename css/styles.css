@@ -133,9 +133,9 @@ Cards:
   line-height: 1.3em;
 }
 
-/*.cards a:focus .caption,
+.cards a:focus .caption,
 .cards a:hover .caption {
-	background: hsl(0, 0%, 97%);
+  background: hsl(0, 0%, 97%);
 }
 
 /*--------------------------------------------------------------
