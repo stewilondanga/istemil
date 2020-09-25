@@ -76,16 +76,16 @@ code {
 }
 
 /* Colophon section */
-/*.colophon {
-	padding: 2em;
-	background: hsl(0, 0%, 10%);
-	color: white;
+.colophon {
+  padding: 2em;
+  background: hsl(0, 0%, 10%);
+  color: white;
   font-size: 90%;
-	text-align: center;
+  text-align: center;
   line-height: 1.8em;
 }
 
-.colophon a {
+/*.colophon a {
 	color: white;
 }
 
