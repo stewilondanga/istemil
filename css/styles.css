@@ -116,13 +116,13 @@ Cards:
   color: black;
 }
 
-/*.caption-title {
-	margin: 0;
-	font-size: 1.4em;
-	line-height: 1em;
+.caption-title {
+  margin: 0;
+  font-size: 1.4em;
+  line-height: 1em;
 }
 
-.location {
+/*.location {
   padding: .5em 0;
   color: hsl(0, 0%, 40%);
 }
