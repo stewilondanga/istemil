@@ -246,12 +246,12 @@ caption {
   margin-bottom: 10px;
 }
 
-/*td {
+td {
   padding: 0.5rem;
   user-select: none;
 }
 
-.health {
+/*.health {
   border: 1px solid red;
 }
 
