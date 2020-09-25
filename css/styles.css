@@ -144,12 +144,12 @@ code {
   border-radius: 2px;
 }
 
-/*.container .input-box #submit-btn:hover {
+.container .input-box #submit-btn:hover {
   background-color: #008080;
   cursor: pointer;
 }
 
-body {
+/*body {
   width: 100vw;
   height: 100vh;
   display: flex;
