@@ -221,7 +221,41 @@ Cards:
   background: hsl(0, 0%, 97%);
 }
 
+/*Chart*/
 
+.main-logo:hover{
+  background-color: white;
+}
+.black{
+  color: black;
+}
+.black:hover{
+  color: black;
+}
+.main-container{
+  padding-top: 50px;
+  padding-bottom: 50px;
+  width: 50%;
+}
+.link-underline:hover{
+  text-decoration: underline;
+}
+.card{
+  margin: 0px 20px;
+}
+.centered{
+  margin: auto;
+}
+.logo{
+  width: 100px;
+}
+.heading{
+  text-align: center;
+}
+.centered-icon{
+  position: relative;
+  left: 15px;
+}
 /*Table*/
 .card-item .double body {
   font-size: 18px;
