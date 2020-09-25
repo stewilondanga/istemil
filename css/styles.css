@@ -237,7 +237,7 @@ table {
   margin-left: 40px;
 }
 
-/*caption {
+caption {
   font-family: helvetica, sans;
   font-size: 2em;
   font-weight: bold;
@@ -245,7 +245,8 @@ table {
   text-shadow: 3px 3px 5px white;
   margin-bottom: 10px;
 }
-td {
+
+/*td {
   padding: 0.5rem;
   user-select: none;
 }
