@@ -85,7 +85,6 @@ code {
   box-sizing: border-box;
 }
 
-/*
 .container .screen {
   width: 400px;
   height: 280px;
@@ -97,6 +96,7 @@ code {
   position: relative;
 }
 
+/*
 .container .screen .digit {
   margin: 2px;
 }
