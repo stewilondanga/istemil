@@ -122,12 +122,12 @@ Cards:
   line-height: 1em;
 }
 
-/*.location {
+.location {
   padding: .5em 0;
   color: hsl(0, 0%, 40%);
 }
 
-.caption p {
+/*.caption p {
 	margin-top: .5em;
 	margin-bottom: 0;
   line-height: 1.3em;
