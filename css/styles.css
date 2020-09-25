@@ -124,7 +124,7 @@ code {
   padding: 5px 0;
 }
 
-/*.container .input-box #sentence {
+.container .input-box #sentence {
   flex-grow: 1;
   border-radius: 2px;
   border: 2px #404040 solid;
@@ -132,7 +132,7 @@ code {
   font-size: 1.2rem;
 }
 
-.container .input-box #sentence:focus {
+/*.container .input-box #sentence:focus {
   border: 2px #004040 solid;
 }
 
