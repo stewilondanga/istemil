@@ -35,14 +35,14 @@ Accessibility
 /*--------------------------------------------------------------
 General styling
 --------------------------------------------------------------*/
-/*body {
+body {
   margin: 0;
   font-family: 'Helvetica', 'Arial', sans-serif;
   font-size: 100%;
   font-size: 1.2em;
 }
 
-img {
+/*img {
 	display: block;
 	border: 0;
 	width: 100%;
