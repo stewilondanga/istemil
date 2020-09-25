@@ -312,13 +312,21 @@ td:hover {
   animation: keyhighlightbattle 1.5s;
 }
 
-/*@keyframes keyhighlightbattle {
-  0% { background: pink; }
-  50% { color: yellow; }
-  100% { color: white; }
+@keyframes keyhighlightbattle {
+  0% {
+    background: pink;
+  }
+
+  50% {
+    color: yellow;
+  }
+
+  100% {
+    color: white;
+  }
 }
 
-.shiftdown {
+/*.shiftdown {
   transition: all 0.5s;
   transform: translate(0, 43px);
   border: 2px solid green;
