@@ -132,11 +132,11 @@ code {
   font-size: 1.2rem;
 }
 
-/*.container .input-box #sentence:focus {
+.container .input-box #sentence:focus {
   border: 2px #004040 solid;
 }
 
-.container .input-box #submit-btn {
+/*.container .input-box #submit-btn {
   background-color: #004040;
   color: #ffffff;
   padding: 5px;
