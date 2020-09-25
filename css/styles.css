@@ -286,12 +286,11 @@ td:nth-child(7) {
 
 td:nth-child(8) {}
 
-/*td:hover {
+td:hover {
   box-shadow: 2px 2px 2px grey;
 }
 
-
-.highlight {
+/*.highlight {
   animation: keyhighlight 1.5s;
 }
 
