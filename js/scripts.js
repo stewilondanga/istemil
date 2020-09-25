@@ -160,10 +160,10 @@ var ctx = document.getElementById('myChart').getContext('2d');
 var myChart = new Chart(ctx, {
   type: 'pie',
   data: {
-    labels: ['Offen', 'In Vorbereitung', 'Geschlossen', 'Abgebrochen'],
+    labels: ['Videos', 'E-Learning', 'Blogs', 'Artwork'],
     datasets: [{
       label: 'Status',
-      data: [7, 9, 3, 2],
+      data: [20, 45, 20, 15],
       backgroundColor: [
         'rgba(255, 99, 132, 0.2)',
         'rgba(54, 162, 235, 0.2)',
