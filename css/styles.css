@@ -332,13 +332,13 @@ td:hover {
   border: 2px solid green;
 }
 
-/*.shiftup {
+.shiftup {
   transition: all 0.5s;
   transform: translate(0, -43px);
   border: 2px solid aqua;
 }
 
-
+/*
 @keyframes keyshiftdown {
   100% { transform: translate(0, 43px); }
 }
