@@ -221,6 +221,7 @@ Cards:
   background: hsl(0, 0%, 97%);
 }
 
+
 /*Table*/
 .card-item .double body {
   font-size: 18px;
@@ -370,6 +371,14 @@ strong {
   margin: 0px;
   left: 0;
   right: 0;
+}
+
+/*World*/
+.card-item .double body {
+  background: #000;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
 }
 
 /*--------------------------------------------------------------
