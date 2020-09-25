@@ -55,12 +55,12 @@ code {
 }
 
 /* Header */
-/*.masthead {
-	text-align: center;
-	border-bottom: 1px solid hsl(0, 0%, 90%);
+.masthead {
+  text-align: center;
+  border-bottom: 1px solid hsl(0, 0%, 90%);
 }
 
-.intro {
+/*.intro {
   margin: 0 auto;
   padding: 1em 1em 2em;
   max-width: 50em;
