@@ -373,14 +373,6 @@ strong {
   right: 0;
 }
 
-/*World*/
-.card-item .double body {
-  background: #000;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-}
-
 /*--------------------------------------------------------------
 CSS Grid layout for wider screens, when browser supports grid:
 --------------------------------------------------------------*/
