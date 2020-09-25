@@ -118,13 +118,13 @@ code {
   clip-path: polygon(0px 0px, 0px 90px, 360px 30px, 360px 0px);
 }
 
-/*.container .input-box {
+.container .input-box {
   display: flex;
   width: 400px;
   padding: 5px 0;
 }
 
-.container .input-box #sentence {
+/*.container .input-box #sentence {
   flex-grow: 1;
   border-radius: 2px;
   border: 2px #404040 solid;
