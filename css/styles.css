@@ -141,14 +141,12 @@ Cards:
 /*--------------------------------------------------------------
 CSS Grid layout for wider screens, when browser supports grid:
 --------------------------------------------------------------*/
-/*@supports (grid-area: auto) {
-
-	@media screen and (min-width: 27em) {
-
-		.cards {
-			margin: 0 auto;
-			padding: 1em;
-		}
+@supports (grid-area: auto) {
+  @media screen and (min-width: 27em) {
+    .cards {
+      margin: 0 auto;
+      padding: 1em;
+    }
 
     .card-item,
     .card-item a {
@@ -158,34 +156,33 @@ CSS Grid layout for wider screens, when browser supports grid:
     }
 
     .cards a:focus,
-		.cards a:hover {
-			outline: 1px solid hsl(0, 0%, 80%);
-		}
+    .cards a:hover {
+      outline: 1px solid hsl(0, 0%, 80%);
+    }
 
     .cards a:focus .caption,
     .cards a:hover .caption {
       background: white;
     }
 
-		.card {
-			margin: .5em;
-			display: grid;
-			grid-template-columns: 8em auto;
+    .card {
+      margin: .5em;
+      display: grid;
+      grid-template-columns: 8em auto;
       overflow: hidden;
-		}
+    }
 
     .card img {
-/*       height: 100%;
+      /*       height: 100%;
       width: auto; */
-/*  }
+    }
 
     .caption {
       background: white;
     }
+  }
 
-	}
-
-	@media screen and (min-width: 62em) {
+  /*	@media screen and (min-width: 62em) {
 
 		.cards {
 			max-width: none;
