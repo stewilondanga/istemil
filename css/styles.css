@@ -104,11 +104,11 @@ code {
   background-color: rgba(0, 0, 0, 0.2);
 }
 
-/*.container .screen .digit.on {
+.container .screen .digit.on {
   background-color: rgba(255, 255, 255, 0.8);
 }
 
-.container .screen .glass {
+/*.container .screen .glass {
   position: absolute;
   width: calc(30px * 12);
   height: calc(30px * 8);
