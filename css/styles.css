@@ -228,7 +228,7 @@ Cards:
   background-image: url("https://www.androidcentral.com/sites/androidcentral.com/files/styles/xlarge/public/article_images/2018/03/fortnite-androidcentral-screen.jpg?itok=2rSOYxjF");
 }
 
-/*table {
+table {
   border-spacing: 0.5rem;
   background: #FFFC;
   border-radius: 20px;
@@ -236,7 +236,8 @@ Cards:
   padding-bottom: 60px;
   margin-left: 40px;
 }
-caption {
+
+/*caption {
   font-family: helvetica, sans;
   font-size: 2em;
   font-weight: bold;
