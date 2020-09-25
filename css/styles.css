@@ -290,11 +290,11 @@ td:hover {
   box-shadow: 2px 2px 2px grey;
 }
 
-/*.highlight {
+.highlight {
   animation: keyhighlight 1.5s;
 }
 
-@keyframes keyhighlight {
+/*@keyframes keyhighlight {
   0% { background: white; }
   50% { color: yellow; }
   100% { color: white; }
