@@ -344,11 +344,13 @@ td:hover {
   }
 }
 
-/*
 @keyframes keyshiftup {
-  100% { transform: translate(0, -43px); }
+  100% {
+    transform: translate(0, -43px);
+  }
 }
 
+/*
 #divbottom {
   color: black;
   transform: translate(90px,-55px);
