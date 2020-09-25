@@ -76,7 +76,6 @@ code {
 }
 
 /*Title*/
-/*
 * {
   margin: 0;
   padding: 0;
@@ -86,6 +85,7 @@ code {
   box-sizing: border-box;
 }
 
+/*
 .container .screen {
   width: 400px;
   height: 280px;
