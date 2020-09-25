@@ -225,7 +225,6 @@ Cards:
 .card-item .double body {
   font-size: 18px;
   font-family: Gaegu;
-  background-image: url("https://www.androidcentral.com/sites/androidcentral.com/files/styles/xlarge/public/article_images/2018/03/fortnite-androidcentral-screen.jpg?itok=2rSOYxjF");
 }
 
 table {
@@ -359,20 +358,20 @@ strong {
   color: #FFDD40;
 }
 
-/*
 #divbottom2 {
   font-family: "Lato", "Lucida Grande", "Lucida Sans Unicode", Tahoma, Sans-Serif;
   line-height: 1.4;
-  position:fixed;
-  bottom:0;
-  background:#191A1D;
-  color:white;
-  border-top:4px solid #0ebeff;
+  position: fixed;
+  bottom: 0;
+  background: #191A1D;
+  color: white;
+  border-top: 4px solid #0ebeff;
   padding: 5px;
-  margin:0px;
+  margin: 0px;
   left: 0;
-  right:0;
+  right: 0;
 }
+
 /*--------------------------------------------------------------
 CSS Grid layout for wider screens, when browser supports grid:
 --------------------------------------------------------------*/

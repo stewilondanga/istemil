@@ -155,6 +155,134 @@ submitButton.onclick = () => setNewDrawing(sentence.value);
 textBox.value = "Welcome To Istemil Virtual Global Village";
 setNewDrawing("Welcome To Istemil Virtual Global Village");
 
+/*Table*/
+
+
+//initialize values
+let elist = document.querySelectorAll(".wood,.stone,.metal,.ammo,.shield");
+
+elist.forEach(e => {
+  e.data = Math.floor(Math.random() * 10 + 1);
+  e.innerHTML = "" + e.data;
+  updateRow(e);
+});
+
+// simulate the game
+setInterval(collectItems, 3000);
+setInterval(battle, 9500);
+
+function collectItems() {
+
+  let etrlist = document.querySelectorAll("tr");
+  let r = Math.floor(Math.random() * 5 + 1);
+  let c = Math.floor(Math.random() * 5);
+  let e = etrlist[r].querySelectorAll("td")[c];
+
+  let estatus = etrlist[r].querySelectorAll("td")[6];
+  if (c == 0) estatus.innerHTML = "chop wood";
+  if (c == 1) estatus.innerHTML = "get stone";
+  if (c == 2) estatus.innerHTML = "collect metal";
+  if (c == 3) estatus.innerHTML = "find ammo";
+  if (c == 4) estatus.innerHTML = "pickup shield";
+
+  e.classList.add("highlight");
+  let num = Math.floor(3 + 11 * Math.random());
+  for (t = 0; t < num; t++) {
+    setTimeout(function() {
+      e.data += 1;
+      e.innerHTML = "" + e.data;
+      updateRow(e);
+    }, 300 * t);
+  }
+  setTimeout(function() {
+    e.classList.remove("highlight");
+    estatus.innerHTML = "";
+
+  }, 300 * num);
+
+}
+
+function battle() {
+  let etrlist = document.querySelectorAll("tr");
+  let r = 1;
+  let c = Math.floor(Math.random() * 5);
+  let e = etrlist[r].querySelectorAll("td")[c];
+  let estatus = etrlist[r].querySelectorAll("td")[6];
+
+  let amt = (Math.random() > 0.5 ? 1 : -1);
+  let num = Math.floor(1 + 6 * Math.random());
+
+  estatus.innerHTML = "battle!";
+  let elist = etrlist[r].querySelectorAll(".wood,.stone,.metal,.ammo,.shield");
+
+  elist.forEach((e, i) => {
+    setTimeout(function() {
+      e.classList.add("highlightbattle");
+      e.data = Math.floor(e.data * Math.random());
+      e.innerHTML = "" + e.data;
+      updateRow(e);
+    }, i * 500);
+    setTimeout(function() {
+      e.classList.remove("highlightbattle");
+      estatus.innerHTML = "";
+    }, 3500);
+  });
+
+}
+
+// update the view... is this 'reactive' hmmm?
+function updateRow(e) {
+  let elist = e.parentElement.querySelectorAll("td");
+
+  let total = elist[0].data + elist[1].data + elist[2].data + elist[3].data + elist[4].data;
+
+  let healthpts = (total / (total + 20)); //some arbitrary formula
+
+  elist[5].data = healthpts;
+  elist[5].innerHTML = "" + (elist[5].data * 100).toFixed(1) + '%';
+  // let z = document.querySelectorAll(".wood").reduce((acc,e)=>acc+e.data);
+  // console.log(z);
+}
+
+//sorting one pair at a time, using JS timers and css classes
+setInterval(sortTableOneToggle, 1200);
+
+function sortTableOneToggle() {
+  let elist = document.querySelectorAll("tr");
+
+  for (let i = 0; i < elist.length - 1; i++) {
+    let health0 = elist[i].querySelector(".health");
+    let health1 = elist[i + 1].querySelector(".health");
+
+    if (health0 && health1) {
+
+      if (health0.data < health1.data) {
+        toggleRows(elist[i], elist[i + 1]);
+        break;
+      }
+    }
+  }
+}
+
+function toggleRows(etr1, etr2) {
+  //don't touch ones already in sort process
+  if (etr1.classList.contains("shiftdown")) return;
+  if (etr1.classList.contains("shiftup")) return;
+  if (etr2.classList.contains("shiftdown")) return;
+  if (etr2.classList.contains("shiftup")) return;
+
+  etr1.classList.add("shiftdown");
+  etr2.classList.add("shiftup");
+
+  setTimeout(function() {
+    etr1.parentNode.insertBefore(etr2, etr1);
+    etr1.classList.remove("shiftdown");
+    etr2.classList.remove("shiftup");
+  }, 500);
+}
+
+
+
 
 /* Footer */
 var navigate = (function() {
