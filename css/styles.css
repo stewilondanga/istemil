@@ -110,13 +110,13 @@ Cards:
   text-decoration: none;
 }
 
-/*.caption {
-	padding: 1em;
-	font-size: 90%;
-	color: black;
+.caption {
+  padding: 1em;
+  font-size: 90%;
+  color: black;
 }
 
-.caption-title {
+/*.caption-title {
 	margin: 0;
 	font-size: 1.4em;
 	line-height: 1em;
