@@ -42,14 +42,14 @@ body {
   font-size: 1.2em;
 }
 
-/*img {
-	display: block;
-	border: 0;
-	width: 100%;
-	height: auto;
+img {
+  display: block;
+  border: 0;
+  width: 100%;
+  height: auto;
 }
 
-code {
+/*code {
 	font: 15px Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
   font-weight: bold;
 }
