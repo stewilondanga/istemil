@@ -60,7 +60,7 @@ code {
   border-bottom: 1px solid hsl(0, 0%, 90%);
 }
 
-/*.intro {
+.intro {
   margin: 0 auto;
   padding: 1em 1em 2em;
   max-width: 50em;
@@ -71,7 +71,7 @@ code {
   column-gap: 2em;
 }
 
-.intro p {
+/*.intro p {
   margin: 0 0 1em;
 }
 
