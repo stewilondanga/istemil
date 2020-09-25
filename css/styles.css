@@ -127,13 +127,13 @@ Cards:
   color: hsl(0, 0%, 40%);
 }
 
-/*.caption p {
-	margin-top: .5em;
-	margin-bottom: 0;
+.caption p {
+  margin-top: .5em;
+  margin-bottom: 0;
   line-height: 1.3em;
 }
 
-.cards a:focus .caption,
+/*.cards a:focus .caption,
 .cards a:hover .caption {
 	background: hsl(0, 0%, 97%);
 }
