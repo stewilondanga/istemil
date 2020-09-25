@@ -1,4 +1,4 @@
-body {
+/**body {
   text-align: center;
   font-family: courier;
   background-image: url("../assets/image.jpeg");
@@ -20,6 +20,224 @@ body {
 .my_social a img {
   height: 1.5em;
 }
+
+/*--------------------------------------------------------------
+Accessibility
+--------------------------------------------------------------*/
+/* Text meant only for screen readers */
+/*.screen-reader-text {
+	clip: rect(1px, 1px, 1px, 1px);
+	position: absolute !important;
+	height: 1px;
+	width: 1px;
+	overflow: hidden;
+}
+
+.screen-reader-text:hover,
+.screen-reader-text:active,
+.screen-reader-text:focus {
+	background-color: #f1f1f1;
+	border-radius: 3px;
+	box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+	clip: auto !important;
+	color: #21759b;
+	display: block;
+	font-size: 14px;
+	font-weight: bold;
+	height: auto;
+	left: 5px;
+	line-height: normal;
+	padding: 15px 23px 14px;
+	text-decoration: none;
+	top: 5px;
+	width: auto;
+	z-index: 100000; /* Above WP toolbar */
+}
+
+/*--------------------------------------------------------------
+General styling
+--------------------------------------------------------------*/
+/*body {
+  margin: 0;
+  font-family: 'Helvetica', 'Arial', sans-serif;
+  font-size: 100%;
+  font-size: 1.2em;
+}
+
+img {
+	display: block;
+	border: 0;
+	width: 100%;
+	height: auto;
+}
+
+code {
+	font: 15px Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
+  font-weight: bold;
+}
+
+/* Header */
+
+/*.masthead {
+	text-align: center;
+	border-bottom: 1px solid hsl(0, 0%, 90%);
+}
+
+.intro {
+  margin: 0 auto;
+  padding: 1em 1em 2em;
+  max-width: 50em;
+  font-size: 90%;
+  text-align: left;
+  line-height: 1.4em;
+  columns: 2;
+  column-gap: 2em;
+}
+
+.intro p {
+  margin: 0 0 1em;
+}
+
+/* Colophon section */
+/*.colophon {
+	padding: 2em;
+	background: hsl(0, 0%, 10%);
+	color: white;
+  font-size: 90%;
+	text-align: center;
+  line-height: 1.8em;
+}
+
+.colophon a {
+	color: white;
+}
+
+.colophon a:hover,
+.colophon a:focus {
+	border-bottom: 1px solid white;
+}
+
+/*--------------------------------------------------------------
+Cards:
+--------------------------------------------------------------*/
+
+/*.cards {
+	max-width: 25em;
+	margin: 1em auto;
+	padding: 0;
+	list-style-type: none;
+
+}
+
+.cards a {
+	display: block;
+	margin-bottom: 1em;
+	text-decoration: none;
+}
+
+.caption {
+	padding: 1em;
+	font-size: 90%;
+	color: black;
+}
+
+.caption-title {
+	margin: 0;
+	font-size: 1.4em;
+	line-height: 1em;
+}
+
+.location {
+  padding: .5em 0;
+  color: hsl(0, 0%, 40%);
+}
+
+.caption p {
+	margin-top: .5em;
+	margin-bottom: 0;
+  line-height: 1.3em;
+}
+
+.cards a:focus .caption,
+.cards a:hover .caption {
+	background: hsl(0, 0%, 97%);
+}
+
+/*--------------------------------------------------------------
+CSS Grid layout for wider screens, when browser supports grid:
+--------------------------------------------------------------*/
+/*@supports (grid-area: auto) {
+
+	@media screen and (min-width: 27em) {
+
+		.cards {
+			margin: 0 auto;
+			padding: 1em;
+		}
+
+    .card-item,
+    .card-item a {
+      display: flex;
+      align-items: stretch;
+      width: 100%;
+    }
+
+    .cards a:focus,
+		.cards a:hover {
+			outline: 1px solid hsl(0, 0%, 80%);
+		}
+
+    .cards a:focus .caption,
+    .cards a:hover .caption {
+      background: white;
+    }
+
+		.card {
+			margin: .5em;
+			display: grid;
+			grid-template-columns: 8em auto;
+      overflow: hidden;
+		}
+
+    .card img {
+/*       height: 100%;
+      width: auto; */
+  /*  }
+
+    .caption {
+      background: white;
+    }
+
+	}
+
+	@media screen and (min-width: 62em) {
+
+		.cards {
+			max-width: none;
+			margin: 1em 0;
+      padding: 0 1em;
+			display: grid;
+			grid-template-columns: repeat(auto-fit, 25em);
+			grid-gap: 1em;
+			justify-content: center;
+		}
+
+		.double {
+			grid-row: span 3;
+		}
+
+		.double .card {
+			display: block;
+		}
+
+    .double img {
+      height: calc( (100% / 3) * 2 + .5em);
+    }
+
+	}
+
+}
+
 
 .containers {
   width: 520px;
