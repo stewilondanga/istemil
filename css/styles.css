@@ -108,7 +108,7 @@ code {
   background-color: rgba(255, 255, 255, 0.8);
 }
 
-/*.container .screen .glass {
+.container .screen .glass {
   position: absolute;
   width: calc(30px * 12);
   height: calc(30px * 8);
@@ -118,7 +118,7 @@ code {
   clip-path: polygon(0px 0px, 0px 90px, 360px 30px, 360px 0px);
 }
 
-.container .input-box {
+/*.container .input-box {
   display: flex;
   width: 400px;
   padding: 5px 0;
