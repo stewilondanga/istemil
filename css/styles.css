@@ -280,8 +280,11 @@ td:nth-child(6) {
   background: hsl(200, 99%, 50%);
 }
 
-/*td:nth-child(7) { background: hsl(50, 99%, 50%); }
-td:nth-child(8) {  }
+td:nth-child(7) {
+  background: hsl(50, 99%, 50%);
+}
+
+/*td:nth-child(8) {  }
 
 
 td:hover {
