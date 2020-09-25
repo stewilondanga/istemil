@@ -1,0 +1,77 @@
+body {
+  text-align: center;
+  font-family: courier;
+  background-image: url("../assets/image.jpeg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.my_social {
+  position: absolute;
+  top: 25px;
+  left: 25px;
+}
+
+.my_social a {
+  display: inline-block;
+  height: 2.5em;
+}
+
+.my_social a img {
+  height: 1.5em;
+}
+
+.containers {
+  width: 520px;
+  margin: 20px auto;
+}
+
+#contact h1 {
+  font-family: helvetica;
+  font-weight: normal;
+  text-align: center;
+  color: #c0c0c0;
+  padding-top: 50px;
+  padding-bottom: 10px;
+  width: 375px;
+  margin: 0 auto;
+}
+
+.cal {
+  display: inline-block;
+  background: #ffe;
+  color: #555;
+  font-size: 6px;
+  text-align: center;
+  transform: scale(1);
+  transition: all 0.2s linear;
+}
+
+.cal:hover {
+  transform: scale(2.5);
+  transition: all 0.4s linear;
+}
+
+.cal caption {
+  background: #d44;
+  color: #eee;
+  font-size: 15px;
+}
+
+.cal th {
+  color: #aaa;
+  line-height: 200%;
+}
+
+.cal th:first-child {
+  color: #f00;
+}
+
+.cal th:last-child {
+  color: #04d;
+}
+
+.cal td {
+  padding: 0 2px;
+  line-height: 100%;
+}
