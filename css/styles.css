@@ -308,11 +308,11 @@ td:hover {
   }
 }
 
-/*.highlightbattle {
-  animation: keyhighlightbattle 1.5s ;
+.highlightbattle {
+  animation: keyhighlightbattle 1.5s;
 }
 
-@keyframes keyhighlightbattle {
+/*@keyframes keyhighlightbattle {
   0% { background: pink; }
   50% { color: yellow; }
   100% { color: white; }
