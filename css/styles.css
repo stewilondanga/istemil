@@ -85,6 +85,7 @@ code {
   box-sizing: border-box;
 }
 
+
 .container .screen {
   width: 1100px;
   height: 180px;
@@ -221,6 +222,116 @@ Cards:
   background: hsl(0, 0%, 97%);
 }
 
+/*Table*/
+/*
+body {
+  font-size: 18px;
+  font-family: Gaegu;
+  background-image: url("https://www.androidcentral.com/sites/androidcentral.com/files/styles/xlarge/public/article_images/2018/03/fortnite-androidcentral-screen.jpg?itok=2rSOYxjF");
+}
+table {
+  border-spacing: 0.5rem;
+  background: #FFFC;
+  border-radius: 20px;
+  padding: 30px;
+  padding-bottom: 60px;
+  margin-left: 40px;
+}
+caption {
+  font-family: helvetica, sans;
+  font-size: 2em;
+  font-weight: bold;
+  color: green;
+  text-shadow: 3px 3px 5px white;
+  margin-bottom: 10px;
+}
+td {
+  padding: 0.5rem;
+  user-select: none;
+}
+
+.health {
+  border: 1px solid red;
+}
+
+
+td:nth-child(1) { background: hsl(150, 50%, 50%); }
+td:nth-child(2) { background: hsl(160, 60%, 50%); }
+td:nth-child(3) { background: hsl(170, 70%, 50%); }
+td:nth-child(4) { background: hsl(180, 80%, 50%); }
+td:nth-child(5) { background: hsl(190, 90%, 50%); }
+td:nth-child(6) { margin-right:50px; background: hsl(200, 99%, 50%); }
+td:nth-child(7) { background: hsl(50, 99%, 50%); }
+td:nth-child(8) {  }
+
+
+td:hover {
+  box-shadow: 2px 2px 2px grey;
+}
+
+
+.highlight {
+  animation: keyhighlight 1.5s;
+}
+
+@keyframes keyhighlight {
+  0% { background: white; }
+  50% { color: yellow; }
+  100% { color: white; }
+}
+
+.highlightbattle {
+  animation: keyhighlightbattle 1.5s ;
+}
+
+@keyframes keyhighlightbattle {
+  0% { background: pink; }
+  50% { color: yellow; }
+  100% { color: white; }
+}
+
+.shiftdown {
+  transition: all 0.5s;
+  transform: translate(0, 43px);
+  border: 2px solid green;
+}
+.shiftup {
+  transition: all 0.5s;
+  transform: translate(0, -43px);
+  border: 2px solid aqua;
+}
+
+
+@keyframes keyshiftdown {
+  100% { transform: translate(0, 43px); }
+}
+
+@keyframes keyshiftup {
+  100% { transform: translate(0, -43px); }
+}
+
+#divbottom {
+  color: black;
+  transform: translate(90px,-55px);
+}
+
+strong {
+  color: #FFDD40;
+}
+
+#divbottom2 {
+  font-family: "Lato", "Lucida Grande", "Lucida Sans Unicode", Tahoma, Sans-Serif;
+  line-height: 1.4;
+  position:fixed;
+  bottom:0;
+  background:#191A1D;
+  color:white;
+  border-top:4px solid #0ebeff;
+  padding: 5px;
+  margin:0px;
+  left: 0;
+  right:0;
+}
 /*--------------------------------------------------------------
 CSS Grid layout for wider screens, when browser supports grid:
 --------------------------------------------------------------*/
