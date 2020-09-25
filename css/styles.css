@@ -284,10 +284,9 @@ td:nth-child(7) {
   background: hsl(50, 99%, 50%);
 }
 
-/*td:nth-child(8) {  }
+td:nth-child(8) {}
 
-
-td:hover {
+/*td:hover {
   box-shadow: 2px 2px 2px grey;
 }
 
