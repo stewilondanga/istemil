@@ -85,11 +85,11 @@ code {
   line-height: 1.8em;
 }
 
-/*.colophon a {
-	color: white;
+.colophon a {
+  color: white;
 }
 
-.colophon a:hover,
+/*.colophon a:hover,
 .colophon a:focus {
 	border-bottom: 1px solid white;
 }
