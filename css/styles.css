@@ -96,12 +96,11 @@ code {
   position: relative;
 }
 
-/*
 .container .screen .digit {
   margin: 2px;
 }
 
-.container .screen .digit {
+/*.container .screen .digit {
   background-color: rgba(0, 0, 0, 0.2);
 }
 
