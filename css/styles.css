@@ -104,13 +104,13 @@ Cards:
   list-style-type: none;
 }
 
-/*.cards a {
-	display: block;
-	margin-bottom: 1em;
-	text-decoration: none;
+.cards a {
+  display: block;
+  margin-bottom: 1em;
+  text-decoration: none;
 }
 
-.caption {
+/*.caption {
 	padding: 1em;
 	font-size: 90%;
 	color: black;
