@@ -9,156 +9,148 @@
 
 <body>
 
-  <div class="my_social">
-      <a href="https://www.linkedin.com/in/stewart-milimu-ilondanga-336b2743/" class="social">
-          <img src="https://i.imgsafe.org/85/857cb1a42e.png" alt="linkedin"></img>
-        </a>
-      <a href="https://stewilondanga.github.io/" class="social">
-          <img src="https://i.imgsafe.org/8d/8d745a5c82.png" alt="github"></img>
-        </a>
-      <a href="https://twitter.com/stew_ilondanga" class="social">
-          <img src="https://i.imgsafe.org/43/431dd07874.png" alt="twitter"></img>
-        </a>
+
+
+  <a class="skip-link screen-reader-text" href="#content">Skip to content</a>
+
+  <header class="masthead">
+    <h1 class="site-title">Interactive Grid Gallery</h1>
+    <div class="intro">
+      <p>Interactive gallery using CSS Grid for both overall layout and individual card layout. This layout was inspired by the <a href="https://twitter.com/i/moments" target="_blank" rel="nofollow">Twitter Moments</a> page and showcases how CSS
+        Grid allows for advanced responsive card-based layouts at multiple levels.</p>
+      <p>This example is based on one of the exercises from my upcoming <a href="https://lnkd.in/mor10" target="_blank" rel="nofollow">LinkedIn Learning</a> and <a href="https://lynda.com/mor10" target="_blank" rel="nofollow">Lynda.com</a> course
+        "Advanced Layouts with CSS Grid."
     </div>
+  </header><!-- .masthead -->
 
-    <a class="skip-link screen-reader-text" href="#content">Skip to content</a>
+  <main id="content" class="main-area">
+    <ul class="cards">
+      <li class="card-item double">
+        <a href="https://unsplash.com/@andozo?photo=crVO0UMdoVU" target="_blank" rel="nofollow">
+          <figure class="card">
+            <img src="https://source.unsplash.com/crVO0UMdoVU/600x600" alt="Beach. Photo by Andreas Rønningen">
+            <figcaption class="caption">
+              <h3 class="caption-title">Beach</h3>
+              <div class="location">Mølen, Nevlunghamn, Norway</div>
+              <p>This grid item spans one column and three rows to create focus. This is achieved by setting <code>grid-column: span 3;</code>.</p>
+            </figcaption>
+          </figure>
+        </a>
+      </li>
+      <li class="card-item">
+        <a href="https://unsplash.com/@andozo?photo=xkMArBuwK44" target="_blank" rel="nofollow">
+          <figure class="card">
+            <img src="https://source.unsplash.com/xkMArBuwK44/600x600" alt="Pyramid. Photo by Andreas Rønningen">
+            <figcaption class="caption">
+              <h3 class="caption-title">Louvre Museum Pyramid</h3>
+              <div class="location">Paris, France</div>
+              <p>This grid item spans one column and one row. The card contains its own grid which lays out the contents for consistent display.</p>
+            </figcaption>
+          </figure>
+        </a>
+      </li>
+      <li class="card-item">
+        <a href="https://unsplash.com/@andozo?photo=w3lQVmuK8fw" target="_blank" rel="nofollow">
+          <figure class="card">
+            <img src="https://source.unsplash.com/w3lQVmuK8fw/600x600" alt="Fox. Photo by Andreas Rønningen">
+            <figcaption class="caption">
+              <h3 class="caption-title">What Does the Fox Say?</h3>
+              <div class="location">Hovedøya, Norway</div>
+              <p>I was surprised to learn there are foxes on Hovedøya. Then again, there are rabbits, so it makes sense.</p>
+            </figcaption>
+          </figure>
+        </a>
+      </li>
+      <li class="card-item">
+        <a href="https://unsplash.com/@andozo?photo=lr81rOg-gys" target="_blank" rel="nofollow">
+          <figure class="card">
+            <img src="https://source.unsplash.com/lr81rOg-gys/600x600" alt="Owl. Photo by Andreas Rønningen">
+            <figcaption class="caption">
+              <h3 class="caption-title">Brown Barn Owl</h3>
+              <div class="location">Bamble, Norway</div>
+              <p>Unlike the fox, everyone knows what the owl says: "Did you do that?"</p>
+            </figcaption>
+          </figure>
+        </a>
+      </li>
+      <li class="card-item">
+        <a href="https://unsplash.com/@andozo?photo=KUfkX6gVwBU" target="_blank" rel="nofollow">
+          <figure class="card">
+            <img src="https://source.unsplash.com/KUfkX6gVwBU/600x600" alt="Oslo. Photo by Andreas Rønningen">
+            <figcaption class="caption">
+              <h3 class="caption-title">Little Oslo Is Its Own Planet</h3>
+              <div class="location">Oslo, Norway</div>
+              <p>All the streets are different nations, each block a continent.</p>
+            </figcaption>
+          </figure>
+        </a>
+      </li>
+      <li class="card-item double">
+        <a href="https://unsplash.com/@andozo?photo=8hRYTck6LBQ" target="_blank" rel="nofollow">
+          <figure class="card">
+            <img src="https://source.unsplash.com/8hRYTck6LBQ/600x600" alt="Sunset. Photo by Andreas Rønningen">
+            <figcaption class="caption">
+              <h3 class="caption-title">Sunset Lake</h3>
+              <div class="location">Somewhere, Earth</div>
+            </figcaption>
+          </figure>
+        </a>
+      </li>
+      <li class="card-item">
+        <a href="https://unsplash.com/@andozo?photo=i9FLJwYhVQs" target="_blank" rel="nofollow">
+          <figure class="card">
+            <img src="https://source.unsplash.com/i9FLJwYhVQs/600x600" alt="Lake. Photo by Andreas Rønningen">
+            <figcaption class="caption">
+              <h3 class="caption-title">Bonfire by the Lake</h3>
+              <div class="location">Øyungen, Norway</div>
+              <p>Low light over a lake as three friends warm themselves by the fire.</p>
+            </figcaption>
+          </figure>
+        </a>
+      </li>
+      <li class="card-item">
+        <a href="https://unsplash.com/@andozo?photo=5d2ETacuSgw" target="_blank" rel="nofollow">
+          <figure class="card">
+            <img src="https://source.unsplash.com/5d2ETacuSgw/600x600" alt="Jump. Photo by Andreas Rønningen">
+            <figcaption class="caption">
+              <h3 class="caption-title">Jumping</h3>
+              <div class="location">Geiranger, Norway</div>
+              <p>Jumping behind a fence overlooking the Geiranger fjord.</p>
+            </figcaption>
+          </figure>
+        </a>
+      </li>
+      <li class="card-item">
+        <a href="https://unsplash.com/@andozo?photo=vMRMYoLQzwo" target="_blank" rel="nofollow">
+          <figure class="card">
+            <img src="https://source.unsplash.com/vMRMYoLQzwo/600x600" alt="Oslo Fjord. Photo by Andreas Rønningen">
+            <figcaption class="caption">
+              <h3 class="caption-title">In the Bay</h3>
+              <div class="location">Oslo, Norway</div>
+              <p>Greeting the ships sailing in on a late summer evening.</p>
+            </figcaption>
+          </figure>
+        </a>
+      </li>
+      <li class="card-item">
+        <a href="https://unsplash.com/@andozo?photo=S2YssLw97l4" target="_blank" rel="nofollow">
+          <figure class="card">
+            <img src="https://source.unsplash.com/S2YssLw97l4/600x600" alt="Oslo Fjord. Photo by Andreas Rønningen">
+            <figcaption class="caption">
+              <h3 class="caption-title">Sparklers and Warm Souls</h3>
+              <div class="location">Porsgrunn, Norway</div>
+              <p>A couple enjoys the sparkles of warm friendship.</p>
+            </figcaption>
+          </figure>
+        </a>
+      </li>
+    </ul>
+  </main>
 
-    <header class="masthead">
-      <h1 class="site-title">Interactive Grid Gallery</h1>
-      <div class="intro">
-        <p>Interactive gallery using CSS Grid for both overall layout and individual card layout. This layout was inspired by the <a href="https://twitter.com/i/moments" target="_blank" rel="nofollow">Twitter Moments</a> page and showcases how CSS Grid allows for advanced responsive card-based layouts at multiple levels.</p>
-        <p>This example is based on one of the exercises from my upcoming <a href="https://lnkd.in/mor10" target="_blank" rel="nofollow">LinkedIn Learning</a> and <a href="https://lynda.com/mor10" target="_blank" rel="nofollow">Lynda.com</a> course "Advanced Layouts with CSS Grid."
-      </div>
-    </header><!-- .masthead -->
-
-    <main id="content" class="main-area">
-      <ul class="cards">
-        <li class="card-item double">
-         <a href="https://unsplash.com/@andozo?photo=crVO0UMdoVU" target="_blank" rel="nofollow">
-            <figure class="card">
-              <img src="https://source.unsplash.com/crVO0UMdoVU/600x600" alt="Beach. Photo by Andreas Rønningen">
-              <figcaption class="caption">
-                <h3 class="caption-title">Beach</h3>
-                <div class="location">Mølen, Nevlunghamn, Norway</div>
-                <p>This grid item spans one column and three rows to create focus. This is achieved by setting <code>grid-column: span 3;</code>.</p>
-              </figcaption>
-            </figure>
-          </a>
-        </li>
-        <li class="card-item">
-          <a href="https://unsplash.com/@andozo?photo=xkMArBuwK44" target="_blank" rel="nofollow">
-            <figure class="card">
-              <img src="https://source.unsplash.com/xkMArBuwK44/600x600" alt="Pyramid. Photo by Andreas Rønningen">
-              <figcaption class="caption">
-                <h3 class="caption-title">Louvre Museum Pyramid</h3>
-                <div class="location">Paris, France</div>
-                <p>This grid item spans one column and one row. The card contains its own grid which lays out the contents for consistent display.</p>
-              </figcaption>
-            </figure>
-          </a>
-        </li>
-        <li class="card-item">
-          <a href="https://unsplash.com/@andozo?photo=w3lQVmuK8fw" target="_blank" rel="nofollow">
-            <figure class="card">
-              <img src="https://source.unsplash.com/w3lQVmuK8fw/600x600" alt="Fox. Photo by Andreas Rønningen">
-              <figcaption class="caption">
-                <h3 class="caption-title">What Does the Fox Say?</h3>
-                <div class="location">Hovedøya, Norway</div>
-                <p>I was surprised to learn there are foxes on Hovedøya. Then again, there are rabbits, so it makes sense.</p>
-              </figcaption>
-            </figure>
-          </a>
-        </li>
-        <li class="card-item">
-          <a href="https://unsplash.com/@andozo?photo=lr81rOg-gys" target="_blank" rel="nofollow">
-            <figure class="card">
-              <img src="https://source.unsplash.com/lr81rOg-gys/600x600" alt="Owl. Photo by Andreas Rønningen">
-              <figcaption class="caption">
-                <h3 class="caption-title">Brown Barn Owl</h3>
-                <div class="location">Bamble, Norway</div>
-                <p>Unlike the fox, everyone knows what the owl says: "Did you do that?"</p>
-              </figcaption>
-            </figure>
-          </a>
-        </li>
-        <li class="card-item">
-          <a href="https://unsplash.com/@andozo?photo=KUfkX6gVwBU" target="_blank" rel="nofollow">
-            <figure class="card">
-              <img src="https://source.unsplash.com/KUfkX6gVwBU/600x600" alt="Oslo. Photo by Andreas Rønningen">
-              <figcaption class="caption">
-                <h3 class="caption-title">Little Oslo Is Its Own Planet</h3>
-                <div class="location">Oslo, Norway</div>
-                <p>All the streets are different nations, each block a continent.</p>
-              </figcaption>
-            </figure>
-          </a>
-        </li>
-        <li class="card-item double">
-          <a href="https://unsplash.com/@andozo?photo=8hRYTck6LBQ" target="_blank" rel="nofollow">
-            <figure class="card">
-              <img src="https://source.unsplash.com/8hRYTck6LBQ/600x600" alt="Sunset. Photo by Andreas Rønningen">
-              <figcaption class="caption">
-                <h3 class="caption-title">Sunset Lake</h3>
-                <div class="location">Somewhere, Earth</div>
-              </figcaption>
-            </figure>
-          </a>
-        </li>
-        <li class="card-item">
-          <a href="https://unsplash.com/@andozo?photo=i9FLJwYhVQs" target="_blank" rel="nofollow">
-            <figure class="card">
-              <img src="https://source.unsplash.com/i9FLJwYhVQs/600x600" alt="Lake. Photo by Andreas Rønningen">
-              <figcaption class="caption">
-                <h3 class="caption-title">Bonfire by the Lake</h3>
-                <div class="location">Øyungen, Norway</div>
-                <p>Low light over a lake as three friends warm themselves by the fire.</p>
-              </figcaption>
-            </figure>
-          </a>
-        </li>
-        <li class="card-item">
-          <a href="https://unsplash.com/@andozo?photo=5d2ETacuSgw" target="_blank" rel="nofollow">
-            <figure class="card">
-              <img src="https://source.unsplash.com/5d2ETacuSgw/600x600" alt="Jump. Photo by Andreas Rønningen">
-              <figcaption class="caption">
-                <h3 class="caption-title">Jumping</h3>
-                <div class="location">Geiranger, Norway</div>
-                <p>Jumping behind a fence overlooking the Geiranger fjord.</p>
-              </figcaption>
-            </figure>
-          </a>
-        </li>
-        <li class="card-item">
-          <a href="https://unsplash.com/@andozo?photo=vMRMYoLQzwo" target="_blank" rel="nofollow">
-            <figure class="card">
-              <img src="https://source.unsplash.com/vMRMYoLQzwo/600x600" alt="Oslo Fjord. Photo by Andreas Rønningen">
-              <figcaption class="caption">
-                <h3 class="caption-title">In the Bay</h3>
-                <div class="location">Oslo, Norway</div>
-                <p>Greeting the ships sailing in on a late summer evening.</p>
-              </figcaption>
-            </figure>
-          </a>
-        </li>
-        <li class="card-item">
-          <a href="https://unsplash.com/@andozo?photo=S2YssLw97l4" target="_blank" rel="nofollow">
-            <figure class="card">
-              <img src="https://source.unsplash.com/S2YssLw97l4/600x600" alt="Oslo Fjord. Photo by Andreas Rønningen">
-              <figcaption class="caption">
-                <h3 class="caption-title">Sparklers and Warm Souls</h3>
-                <div class="location">Porsgrunn, Norway</div>
-                <p>A couple enjoys the sparkles of warm friendship.</p>
-              </figcaption>
-            </figure>
-          </a>
-        </li>
-      </ul>
-    </main>
-
-    <footer class="colophon grid">
-      <aside>Content, layout, design: <a href="https://twitter.com/mor10" target="_blank" rel="nofollow">Morten Rand-Hendriksen</a>.</aside>
-      <aside>All photos: <a href="https://unsplash.com/@andozo" target="_blank" rel="nofollow">Andreas Rønningen</a>.</aside>
-    </footer>
+  <footer class="colophon grid">
+    <aside>Content, layout, design: <a href="https://twitter.com/mor10" target="_blank" rel="nofollow">Morten Rand-Hendriksen</a>.</aside>
+    <aside>All photos: <a href="https://unsplash.com/@andozo" target="_blank" rel="nofollow">Andreas Rønningen</a>.</aside>
+  </footer>
 
 
   <section id="contact">
@@ -166,12 +158,13 @@
       <div class="containers">
 
         <h1>
-<script>
-with(new Date)c=-new Date(y=getFullYear(),m=getMonth()).getDay(x=new Date(y,++m,0).getDate(b=-1))
-h='<table class="cal"><caption> <em>Stewart ilondanga</em> &#169 '+' '+y+'/'+m+'<tr>'+'SuMoTuWeThFrSa'.replace(/(..)/g,'<th>$1')
-while((b++>5?b=0:b)|c<x)h+=(b?'':'<tr>')+'<td>'+(++c<1|c>x?'-':c);document.write(h+'</table>')
-</script>
-</h1>
+          <script>
+            with(new Date) c = -new Date(y = getFullYear(), m = getMonth()).getDay(x = new Date(y, ++m, 0).getDate(b = -1))
+            h = '<table class="cal"><caption> <em>Stewart ilondanga</em> &#169 ' + ' ' + y + '/' + m + '<tr>' + 'SuMoTuWeThFrSa'.replace(/(..)/g, '<th>$1')
+            while ((b++ > 5 ? b = 0 : b) | c < x) h += (b ? '' : '<tr>') + '<td>' + (++c < 1 | c > x ? '-' : c);
+            document.write(h + '</table>')
+          </script>
+        </h1>
 
       </div>
     </div>
