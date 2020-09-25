@@ -136,7 +136,7 @@ code {
   border: 2px #004040 solid;
 }
 
-/*.container .input-box #submit-btn {
+.container .input-box #submit-btn {
   background-color: #004040;
   color: #ffffff;
   padding: 5px;
@@ -144,7 +144,7 @@ code {
   border-radius: 2px;
 }
 
-.container .input-box #submit-btn:hover {
+/*.container .input-box #submit-btn:hover {
   background-color: #008080;
   cursor: pointer;
 }
