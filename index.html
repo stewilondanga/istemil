@@ -148,27 +148,26 @@
   </main>
 
   <footer class="colophon grid">
-    <aside>Content, layout, design: <a href="https://twitter.com/mor10" target="_blank" rel="nofollow">Morten Rand-Hendriksen</a>.</aside>
-    <aside>All photos: <a href="https://unsplash.com/@andozo" target="_blank" rel="nofollow">Andreas Rønningen</a>.</aside>
+    <section id="contact">
+      <div class="overlay">
+        <div class="containers">
+
+          <h1>
+            <script>
+              with(new Date) c = -new Date(y = getFullYear(), m = getMonth()).getDay(x = new Date(y, ++m, 0).getDate(b = -1))
+              h = '<table class="cal"><caption> <em>Stewart ilondanga</em> &#169 ' + ' ' + y + '/' + m + '<tr>' + 'SuMoTuWeThFrSa'.replace(/(..)/g, '<th>$1')
+              while ((b++ > 5 ? b = 0 : b) | c < x) h += (b ? '' : '<tr>') + '<td>' + (++c < 1 | c > x ? '-' : c);
+              document.write(h + '</table>')
+            </script>
+          </h1>
+
+        </div>
+      </div>
+    </section>
   </footer>
 
 
-  <section id="contact">
-    <div class="overlay">
-      <div class="containers">
 
-        <h1>
-          <script>
-            with(new Date) c = -new Date(y = getFullYear(), m = getMonth()).getDay(x = new Date(y, ++m, 0).getDate(b = -1))
-            h = '<table class="cal"><caption> <em>Stewart ilondanga</em> &#169 ' + ' ' + y + '/' + m + '<tr>' + 'SuMoTuWeThFrSa'.replace(/(..)/g, '<th>$1')
-            while ((b++ > 5 ? b = 0 : b) | c < x) h += (b ? '' : '<tr>') + '<td>' + (++c < 1 | c > x ? '-' : c);
-            document.write(h + '</table>')
-          </script>
-        </h1>
-
-      </div>
-    </div>
-  </section>
 </body>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
