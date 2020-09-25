@@ -182,35 +182,32 @@ CSS Grid layout for wider screens, when browser supports grid:
     }
   }
 
-  /*	@media screen and (min-width: 62em) {
-
-		.cards {
-			max-width: none;
-			margin: 1em 0;
+  @media screen and (min-width: 62em) {
+    .cards {
+      max-width: none;
+      margin: 1em 0;
       padding: 0 1em;
-			display: grid;
-			grid-template-columns: repeat(auto-fit, 25em);
-			grid-gap: 1em;
-			justify-content: center;
-		}
-
-		.double {
-			grid-row: span 3;
-		}
-
-		.double .card {
-			display: block;
-		}
-
-    .double img {
-      height: calc( (100% / 3) * 2 + .5em);
+      display: grid;
+      grid-template-columns: repeat(auto-fit, 25em);
+      grid-gap: 1em;
+      justify-content: center;
     }
 
-	}
+    .double {
+      grid-row: span 3;
+    }
 
+    .double .card {
+      display: block;
+    }
+
+    .double img {
+      height: calc((100% / 3) * 2 + .5em);
+    }
+  }
 }
 
-
+/*
 .containers {
   width: 520px;
   margin: 20px auto;
