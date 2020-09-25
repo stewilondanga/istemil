@@ -338,11 +338,13 @@ td:hover {
   border: 2px solid aqua;
 }
 
-/*
 @keyframes keyshiftdown {
-  100% { transform: translate(0, 43px); }
+  100% {
+    transform: translate(0, 43px);
+  }
 }
 
+/*
 @keyframes keyshiftup {
   100% { transform: translate(0, -43px); }
 }
