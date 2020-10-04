@@ -92,7 +92,7 @@ code {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   grid-template-rows: repeat(8, 1fr);
-  border: 20px #004040 solid;
+  border: 10px #004040 solid;
   position: relative;
 }
 
@@ -105,7 +105,7 @@ code {
 }
 
 .container .screen .digit.on {
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: rgba(236, 187, 6, 0.8);
 }
 
 .container .screen .glass {
